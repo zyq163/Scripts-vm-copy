@@ -149,5 +149,7 @@ case $interface in
                 ;;
         esac;;
 esac
-virsh define /etc/libvirt/qemu/${virtname}.xml  &> /dev/null && echo -e "虚拟机$virtname -----> \033[33m"虚拟机定义完成"\033[39m"  #导入新虚拟机信息,完成克隆操作
+virsh define /etc/libvirt/qemu/${virtname}.xml  &> /dev/null && echo -e "虚拟机$virtname 
+
+----> \033[33m"虚拟机定义完成"\033[39m"  #导入新虚拟机信息,完成克隆操作
 echo "完成!"
